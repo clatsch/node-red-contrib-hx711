@@ -4,7 +4,7 @@
   "description": "Node to connect a hx711 module",
   "main": "hx711.js",
   "dependencies": {
-    "@shroudedcode/hx711": "latest" 
+    "hx711" : "https://github.com/clatsch/hx711_node"
   },
   "keywords": [
     "hx711",
@@ -15,7 +15,7 @@
   "author": {
     "name": "Robin Tönniges",
     "email": "development@toenniges.org"
-  }, 
+  },
   "license": "MIT",
   "node-red": {
     "nodes": {
