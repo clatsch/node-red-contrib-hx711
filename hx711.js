@@ -9,7 +9,7 @@ module.exports = function(RED) {
 		this.hx_offset = config.hx_offset;
 		this.hx_avrg = config.hx_avrg;
 
-		const hx711 = require("hx711");
+		const hx711 = require("github/clatsch/hx711_node");
 		const sensor = new hx711(this.hx_sck, this.hx_data, this.hx_gain);
 
 		sensor.setScale(this.hx_scale);
